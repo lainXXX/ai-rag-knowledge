@@ -85,11 +85,6 @@
             <scope>test</scope>
         </dependency>
 
-<!--        项目模块-->
-        <dependency>
-            <groupId>top.javarem</groupId>
-            <artifactId>rem-dev-tech-api</artifactId>
-        </dependency>
     </dependencies>
 
     <build>
