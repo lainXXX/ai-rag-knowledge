@@ -21,7 +21,7 @@ public class OllamaConfig {
      * @return 可用于与 Ollama 服务交互的 API 客户端
      */
     @Bean
-    public OllamaApi ollamaApi(@Value("${spring.ai.ollama.base-url}") String baseUrl) {
+    public OllamaApi ollamaApi(@Value("${spring.ai.ollama.base}") String baseUrl) {
         return new OllamaApi(baseUrl);
     }
 
