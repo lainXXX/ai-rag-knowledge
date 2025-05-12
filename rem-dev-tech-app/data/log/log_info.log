@@ -645,3 +645,77 @@ You may wish to exclude one of them to ensure predictable runtime behavior
 25-05-11.16:34:56.942 [main            ] INFO  RAGTest                - 测试结果:{"metadata":{"promptMetadata":{},"rateLimit":{"requestsLimit":0,"requestsRemaining":0,"requestsReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true},"tokensLimit":0,"tokensRemaining":0,"tokensReset":{"$ref":"$.metadata.rateLimit.requestsReset"}},"usage":{"generationTokens":0,"promptTokens":0,"totalTokens":0}},"result":{"metadata":{"contentFilterMetadata":{"generationTokens":238,"promptTokens":76,"totalTokens":314},"finishReason":"unknown"},"output":{"content":"<think>\n好，我现在要解决的问题是：“王大瓜，哪年出生？”根据提供的资料，“王大瓜”是1990年的出生。我的任务是通过思考来回答这个问题。\n\n首先，我需要理解问题所给的信息。资料中明确提到“王大瓜”出生于1990年，这应该是关键信息。那么，现在的问题就是反过来询问这一点：哪一年出生的人被称为“王大瓜”。\n\n接下来，我要确保自己没有遗漏任何细节。资料中的信息是直接给出的，没有额外的信息需要处理，所以不需要考虑其他可能性或复杂因素。\n\n然后，我思考如何将这个信息转换成答案。因为问题是在问“哪年”，而已知的出生年份是1990年，所以答案应该是1990年。\n\n最后，我要确保用中文表达，并且没有使用任何技术术语或复杂的句子结构，保持自然流畅。\n\n总结一下，回答这个问题需要明确引用资料中的信息，并正确转换问题的方向。在这个过程中，我必须确保自己正确理解了问题并准确应用了已知的信息。\n</think>\n\n王大瓜，哪年出生","media":[],"messageType":"ASSISTANT","properties":{}}},"results":[{"$ref":"$.metadata.rateLimit.result"}]}
 25-05-11.16:34:56.967 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
 25-05-11.16:34:56.971 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-05-11.19:21:59.359 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/Develop/JAVA/Tools/apache-maven-3.6.1-bin/apache-maven-3.6.1/maven_repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/Develop/JAVA/Tools/apache-maven-3.6.1-bin/apache-maven-3.6.1/maven_repo/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-05-11.19:21:59.387 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.6 with PID 2452 (started by aaa in D:\Develop\project\ai-rag-knowledge\rem-dev-tech-app)
+25-05-11.19:21:59.389 [main            ] INFO  RAGTest                - The following 1 profile is active: "dev"
+25-05-11.19:22:00.462 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-05-11.19:22:00.466 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-05-11.19:22:00.505 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+25-05-11.19:22:01.687 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-05-11.19:22:02.231 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@58bbf365
+25-05-11.19:22:02.233 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-05-11.19:22:06.754 [main            ] INFO  Version                - Redisson 3.44.0
+25-05-11.19:22:07.441 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 110.41.180.185/110.41.180.185:6379
+25-05-11.19:22:07.774 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 110.41.180.185/110.41.180.185:6379
+25-05-11.19:22:09.027 [main            ] INFO  RAGTest                - Started RAGTest in 10.46 seconds (process running for 12.862)
+25-05-11.19:24:29.314 [HikariCP housekeeper] WARN  HikariPool             - HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m26s971ms868µs600ns).
+25-05-11.19:40:56.698 [HikariCP housekeeper] WARN  HikariPool             - HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m57s237ms927µs).
+25-05-11.19:40:56.705 [main            ] INFO  RAGTest                - 上传完成
+25-05-11.19:40:56.809 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-05-11.19:40:56.817 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-05-11.19:41:41.861 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/Develop/JAVA/Tools/apache-maven-3.6.1-bin/apache-maven-3.6.1/maven_repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/Develop/JAVA/Tools/apache-maven-3.6.1-bin/apache-maven-3.6.1/maven_repo/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-05-11.19:41:41.889 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.6 with PID 6688 (started by aaa in D:\Develop\project\ai-rag-knowledge\rem-dev-tech-app)
+25-05-11.19:41:41.892 [main            ] INFO  RAGTest                - The following 1 profile is active: "dev"
+25-05-11.19:41:42.921 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-05-11.19:41:42.926 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-05-11.19:41:42.971 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+25-05-11.19:41:44.528 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-05-11.19:41:45.142 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@3a30a69e
+25-05-11.19:41:45.144 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-05-11.19:41:47.343 [main            ] INFO  Version                - Redisson 3.44.0
+25-05-11.19:41:47.992 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 110.41.180.185/110.41.180.185:6379
+25-05-11.19:41:48.313 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 110.41.180.185/110.41.180.185:6379
+25-05-11.19:41:49.577 [main            ] INFO  RAGTest                - Started RAGTest in 8.477 seconds (process running for 10.609)
+25-05-11.19:43:32.830 [main            ] INFO  RAGTest                - 上传完成
+25-05-11.19:43:32.882 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-05-11.19:43:32.887 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-05-11.19:44:10.993 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/Develop/JAVA/Tools/apache-maven-3.6.1-bin/apache-maven-3.6.1/maven_repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/Develop/JAVA/Tools/apache-maven-3.6.1-bin/apache-maven-3.6.1/maven_repo/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-05-11.19:44:11.015 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.6 with PID 26552 (started by aaa in D:\Develop\project\ai-rag-knowledge\rem-dev-tech-app)
+25-05-11.19:44:11.016 [main            ] INFO  RAGTest                - The following 1 profile is active: "dev"
+25-05-11.19:44:11.697 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-05-11.19:44:11.699 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-05-11.19:44:11.732 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+25-05-11.19:44:12.685 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-05-11.19:44:13.207 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@bac3d44
+25-05-11.19:44:13.209 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-05-11.19:44:14.113 [main            ] INFO  Version                - Redisson 3.44.0
+25-05-11.19:44:14.564 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 110.41.180.185/110.41.180.185:6379
+25-05-11.19:44:14.841 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 110.41.180.185/110.41.180.185:6379
+25-05-11.19:44:15.821 [main            ] INFO  RAGTest                - Started RAGTest in 5.278 seconds (process running for 6.473)
+25-05-11.19:46:15.988 [main            ] INFO  RAGTest                - 测试结果:{"metadata":{"promptMetadata":{},"rateLimit":{"requestsLimit":0,"requestsRemaining":0,"requestsReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true},"tokensLimit":0,"tokensRemaining":0,"tokensReset":{"$ref":"$.metadata.rateLimit.requestsReset"}},"usage":{"generationTokens":0,"promptTokens":0,"totalTokens":0}},"result":{"metadata":{"contentFilterMetadata":{"generationTokens":516,"promptTokens":119,"totalTokens":635},"finishReason":"unknown"},"output":{"content":"<think>\n好，我需要根据提供的信息来回答用户的问题。用户的查询是：“500年前发生了什么”。提供的相关信息包括“王大瓜 1990年出生”，以及“你好 我是世界上最帅的人 你是谁 我是你爹”。\n\n首先，我注意到这些信息看起来都是关于一个人的事物，但缺少具体的历史事件或相关描述。特别是关于王大瓜的出生年份，这可能和历史事件有关联。我记得古代中国有一些重大历史事件发生在500年前，比如丝绸之路的开通、长城的建立等等。\n\n接下来，我需要将这些信息与王大瓜的出生年份结合在一起。假设王大瓜是在500年前出生，那么他可能在某个重要的历史时期 lived in，并且参与了某些重要的事件。\n\n根据我的知识库，古代中国确实有很多重大历史事件发生于500年前左右。例如，王莽时期修建长城大约在1378年，但500年前的时期还有许多重要事件。\n\n考虑到“你好 我是世界上最帅的人 你是谁 我是你爹”，这可能是在说一个关于王大瓜（王莽时期的 ruler）的故事。也许他本人或他的儿子、女儿在某个历史时刻发生了变化。\n\n结合这些信息，我可以推断出500年前发生了许多历史事件，包括长城的建立、丝绸之路的开通等。同时，王大瓜作为当时的统治者可能参与了这些事件的一部分。\n\n因此，综合考虑，500年前确实发生了很多重大历史事件，比如长城的建成、丝绸之路的推进、农业技术的进步等等。这些都是关于古代中国社会和科技发展的重要时刻。\n</think>\n\n500年前发生了许多重大历史事件，包括：\n\n1. **长城的建成**：古代中国在修建长城时使用了重锤throw石子的技术，使长城更加坚固。\n\n2. **丝绸之路的开通**：中国与印度、波斯等地区的商人通过丝绸之路联系起来了，促进了商品和文化交流。\n\n3. **农业技术的进步**：在中国北方地区，种植了更多小麦和corn，实现了粮食产量的快速提升。\n\n4. **科技发明**：古代学者们在天文、机械等领域进行了研究和实践，推动了社会进步。\n\n5. **对外交政策的发展**：中国开始参与多国战争，如第二次世界大战，并在1934年加入德国，与德国建立了外交关系。\n\n这些历史事件都发生在500年前左右。","media":[],"messageType":"ASSISTANT","properties":{}}},"results":[{"$ref":"$.metadata.rateLimit.result"}]}
+25-05-11.19:46:16.051 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-05-11.19:46:16.055 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
